@@ -1,0 +1,75 @@
+# Ignorer les fichiers et dossiers générés par Google Cloud Platform
+.gcloudignore
+*.gcloud
+
+# Ignorer les fichiers et dossiers Git
+.git/
+.gitignore
+
+# Ignorer les fichiers Python compilés et caches
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignorer l'environnement virtuel
+.venv/
+env/
+venv/
+
+# Ignorer les fichiers de configuration locaux et sensibles
+*.env
+.env
+local_settings.py
+*.local
+token_yvan.json
+credentials.json
+token.json
+
+# Ignorer les fichiers de logs
+*.log
+logs/
+*.log.*
+
+# Ignorer les fichiers temporaires et de sauvegarde
+*.bak
+*.swp
+*~
+*.tmp
+2.16
+
+# Ignorer les fichiers de données volumineux
+*.csv
+*.json
+*.sql
+*.db
+*.sqlite3
+*.pkl
+cyia_db.sql
+
+# Ignorer les dossiers de données, modèles, et Chroma
+data/
+models/
+chroma_db/
+chroma_db_mpnet/
+cyia_camembert_model/
+
+# Ignorer les fichiers générés par les IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorer les fichiers spécifiques à Google Colab
+*.ipynb_checkpoints/
+
+# Ignorer les fichiers de déploiement GCP
+app.yaml
+app.yaml.bak
+*.DS_Store
+# Fichiers trop lourds
+*.safetensors
+*.sqlite3
+*.bin
+*.lib
+*.dll
